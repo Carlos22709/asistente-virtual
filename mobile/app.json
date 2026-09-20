@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Kirby Assistant",
+    "slug": "kirby-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "kirbyassistant",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#F58BB4",
+          "defaultChannel": "recordatorios"
+        }
+      ],
+      "expo-secure-store",
+      "expo-sharing",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.carlitos.kirbyassistant"
+    },
+    "ios": {
+      "bundleIdentifier": "com.carlitos.kirbyassistant"
+    }
+  }
+}
