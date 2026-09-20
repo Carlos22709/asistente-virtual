@@ -1,6 +1,6 @@
 # Kirby Assistant
 
-Aplicación móvil personal para Carlitos. Incluye tareas, ingresos, gastos, flujo de caja, presupuesto, tarjetas, préstamos, metas de ahorro y agenda mediante una app Expo que consume una API REST FastAPI. El backend incorpora un orquestador con IA que usa function calling para delegar solicitudes a Secretaría, Finanzas o ambos agentes. Los agentes consultan y modifican los datos reales del proyecto, y un webhook protegido puede convertir notificaciones bancarias en gastos automáticamente.
+Aplicación móvil personal. Incluye tareas, ingresos, gastos, flujo de caja, presupuesto, tarjetas, préstamos, metas de ahorro y agenda mediante una app Expo que consume una API REST FastAPI. El backend incorpora un orquestador con IA que usa function calling para delegar solicitudes a Secretaría, Finanzas o ambos agentes. Los agentes consultan y modifican los datos reales del proyecto, y un webhook protegido puede convertir notificaciones bancarias en gastos automáticamente.
 
 ## Arquitectura
 
